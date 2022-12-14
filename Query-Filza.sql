@@ -57,8 +57,8 @@ FROM game
 WHERE game.G_ID NOT IN (
 	-- cari ID Game yang memiliki tags "Shooter"
 	SELECT DISTINCT detail_game_tags.GAME_G_ID
-	FROM detail_game_tags cross join tags
-	ON detail_game_tags.TAGS_T_ID IN (
+	FROM detail_game_tags 
+	WHERE detail_game_tags.TAGS_T_ID IN (
 		-- cari ID Tag yang merupakan "Shooter"
 		SELECT Tags.T_ID
 		FROM Tags
