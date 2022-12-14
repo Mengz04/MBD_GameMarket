@@ -69,7 +69,7 @@ ORDER BY game.G_ID;
 
 -- 5. Menampilkan persentase dari game yang memiliki age-rating "PEGI-18"
 SELECT ROUND(COUNT(game.G_AGERATING) / (
-	SELECT COUNT(game.G_AGERATING)
+	SELECT COUNT(game.G_ID)
 	FROM game
 ) * 100, 1) as 'Game PEGI-18 (%)'
 FROM game
