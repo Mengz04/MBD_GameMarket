@@ -35,7 +35,7 @@ FROM user cross join (
 ) as user_pengeluaran
 ON user.U_ID = user_pengeluaran.USER_U_ID;
 
--- 3. Menampilkan nama game yang memiliki bahasa audio, interface, dan subtitle vietnam. Diurut berdasarkan nama game-nya.
+-- 3. Menampilkan nama game yang memiliki bahasa audio vietnam ataupun thailand, Diurut berdasarkan nama game-nya.
 SELECT game.G_NAMA, final.BA_NAMA 'Bahasa'
 FROM game cross join (
 	-- cari ID Game yang memiliki bahasa audio vietnam ataupun thailand
