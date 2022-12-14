@@ -2429,7 +2429,7 @@ insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('30','G004','T013
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('31','G004','T017'); 
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('32','G004','T018'); 
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('33','G005','T001'); 
-insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('34','G005','T001'); 
+insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('34','G005','T002'); 
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('35','G005','T006'); 
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('36','G005','T017'); 
 insert into Detail_Game_Tags(No, Game_G_ID, TAGS_T_ID) values ('37','G006','T001'); 
